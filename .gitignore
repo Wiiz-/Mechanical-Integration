@@ -6446,3 +6446,46 @@
 /build/tmp/recompileMc/sources/net/minecraftforge/server/console/TerminalHandler.java
 /build/tmp/recompileMc/sources/paulscode/sound/codecs/CodecIBXM.java
 /*.properties
+Forge 1.9.iml
+Forge 1.9.ipr
+Forge 1.9.iws
+blockShaft.png
+RenderTileShaft.class
+forge.cfg
+forgeChunkLoading.cfg
+splash.properties
+crash-2016-03-22_11.52.13-client.txt
+2016-03-21-1.log.gz
+2016-03-21-2.log.gz
+2016-03-21-3.log.gz
+2016-03-21-4.log.gz
+2016-03-22-1.log.gz
+fml-client-1.log
+fml-client-2.log
+fml-client-3.log
+fml-client-latest.log
+fml-junk-earlystartup.log
+latest.log
+options.txt
+Mineshaft.dat
+villages.dat
+villages_end.dat
+villages_nether.dat
+forcedchunks.dat
+icon.png
+level.dat
+level.dat_old
+13848433-7be7-350d-8b4a-c038819c2260.dat
+2fadf78c-df6e-3f69-9afe-653fe25a83d0.dat
+453f7d61-95c2-3540-9f32-1609f539a60e.dat
+46c1b760-ca01-3b6f-9924-2c0867885238.dat
+4f2b9d55-5b3e-32ee-ad58-c8df44a23337.dat
+r.-1.0.mca
+session.lock
+13848433-7be7-350d-8b4a-c038819c2260.json
+2fadf78c-df6e-3f69-9afe-653fe25a83d0.json
+453f7d61-95c2-3540-9f32-1609f539a60e.json
+46c1b760-ca01-3b6f-9924-2c0867885238.json
+4f2b9d55-5b3e-32ee-ad58-c8df44a23337.json
+usercache.json
+usernamecache.json

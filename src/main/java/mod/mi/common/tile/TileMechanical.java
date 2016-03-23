@@ -1,7 +1,7 @@
 package mod.mi.common.tile;
 
 import mod.mi.common.mechanical.IMechanical;
-import mod.mi.common.mechanical.MechanicalNode;
+import mod.mi.common.mechanical.MechanicalNetwork;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.network.NetworkManager;
 import net.minecraft.network.Packet;
@@ -12,8 +12,8 @@ import net.minecraft.util.ITickable;
 public abstract class TileMechanical extends TileEntity implements ITickable, IMechanical
 {
 
-	public MechanicalNode node;
-
+	public MechanicalNetwork network;
+	
 	/**
 	 * Called both client and server side
 	 */
@@ -23,8 +23,6 @@ public abstract class TileMechanical extends TileEntity implements ITickable, IM
 	public abstract void writeNBT(NBTTagCompound nbt);
 
 	public abstract void readNBT(NBTTagCompound nbt);
-	
-	public abstract void createNode();
 
 	@Override
 	public void writeToNBT(NBTTagCompound compound)
@@ -38,18 +36,6 @@ public abstract class TileMechanical extends TileEntity implements ITickable, IM
 	{
 		super.readFromNBT(compound);
 		readNBT(compound);
-	}
-
-	@Override
-	public MechanicalNode getNode()
-	{
-		return this.node;
-	}
-
-	@Override
-	public void setNode(MechanicalNode node)
-	{
-		this.node = node;
 	}
 
 	// Network
